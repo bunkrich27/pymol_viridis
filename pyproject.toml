@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymol_viridis"
+version = "0.0.1"
+description = "Viridis and other colorblind-accessible palettes for PyMOL"
+readme = "README.md"
+authors = [{ name = "Shyam Saladi", email = "saladi@caltech.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+
+[project.urls]
+"Homepage" = "https://github.com/smsaladi/pymol_viridis"
+"Bug Tracker" = "https://github.com/smsaladi/pymol_viridis/issues"
